@@ -1,12 +1,12 @@
 {
   "name": "@arzvaak/dsh-provider-hub",
-  "version": "0.1.0",
+  "version": "0.1.2-english.20261114.rc3.1",
   "type": "module",
   "license": "MIT",
   "description": "BharatCode and OpenAI-compatible provider setup alongside existing subscription logins for DeepSeek Harness.",
   "exports": {
     ".": "./src/host.js",
-    "./client": "./lib/client.js",
+    "./client": "./lib/client.runtime.js",
     "./package.json": "./package.json"
   },
   "files": [
@@ -49,7 +49,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arzvaak/dsh-provider-hub.git"
+    "url": "git+https://github.com/DSH-Extensions-list/dsh-provider-hub.git"
   },
   "homepage": "https://github.com/arzvaak/dsh-provider-hub#readme",
   "bugs": {
